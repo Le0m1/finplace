@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+    function task(){
+        alert("Номер по Україні +380 (055) 999 88")
+        alert("Номер по Європі (055) 999 88")
+        alert("Email: Build@corp.ua")
+    }</script>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__row">
+                <div class="logo">
+                    
+                    <span>Find Place</span>
+                </div>
+                <div class="navigation-list">
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="Second.html" class="active">Про нас</a></li>
+                        <li><a href="Third.html">Знайти місце</a></li>
+                        <li><a href="#">Поділитись місцем</a></li>
+                        <li><a href="#">Зарезервувати місце</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <div class="header__text">
+                    <h2 class="header__title">
+                        Find Place - компанія створена для пошуку території для комерційних споруд 
+                    </h2>
+
+                    <p>Створена у 2022 році Хлопецьким Тарасом</p>
+
+                    <form action="" class="header__form form">
+                        <label class="form__label">
+                            <input type="text" class="form__input" placeholder="Ваш Email: ">
+                            <button class="form__button button">Відправити</button>
+                        </label>
+                    </form>
+
+
+                </div>
+                <div class="header__img">
+                    <img src="./img/header/img.jpg" alt="Real estate space">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="clients">
+        <div class="container">
+            <div class="clients__row">
+                <img src="./img/icons/logo.png" alt="Logo">
+                <img src="./img/icons/logoapple.png" alt="Logo">
+                <img src="./img/icons/milogo.png" alt="Logo">
+                <img src="./img/icons/OnePlus_Logo.png" alt="Logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="objects">
+        <div class="container container--fluid container--no-padding">
+            <div class="objects__row">
+
+                <!-- objects__img -->
+                <div class="objects__img">
+
+                    <div class="img-card img-card--rounder">
+                        <img src="./img/cards/01.jpg" class="img-card__img" alt="Image">
+                    </div>
+
+                    <!-- img-card -->
+                    <div class="img-card">
+                        <img src="./img/cards/02.jpg" class="img-card__img" alt="Image">
+
+                        <div class="img-card__info">
+
+                            <!-- card-info -->
+                            <div class="card-info">
+                                <div class="card-info__icon">
+                                    <img src="./img/icons/building.svg" alt="" class="">
+                                </div>
+                                <div class="card-info__text">
+                                    <h3 class="card-info__title">Приклади останніх робіт</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <!-- //card-info -->
+
+
+                        </div>
+                    </div>
+                    <!-- //img-card -->
+
+                </div>
+                <!-- //objects__img -->
+
+                <!-- objects__text -->
+                <div class="objects__text">
+
+                    <h2 class="objects__title title">Найкраща місцевість - найкраща продуктивність</h2>
+
+                    <p>98% задоволених клієнтів та понад 7000 замовлень</p>
+                    <p>260 офісів по всьому світу та близько 9000 працівників</p>
+
+                    <a href="#!" class="objects__button button">Детальніше</a>
+
+                </div>
+                <!-- //objects__text -->
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta__block">
+
+                <div class="cta__img">
+                    <img src="./img/icons/Dashboard.jpg" alt="">
+                </div>
+
+                <!-- cta__text -->
+                <div class="cta__text">
+
+                    <h2 class="cta__title title">Запишись на консультацію!</h2>
+
+                    <p>Дзвінки по Україні безкоштовні</p>
+                    <div class="cta__buttons-row">
+                        <a href="#!" class="button" onclick = "task()" >Контакти</a>
+                        <button class="button button--white button--play" >
+                            <a href="https://www.youtube.com/watch?v=beIpTuttWUk">Відео</a>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- // cta__text -->
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
